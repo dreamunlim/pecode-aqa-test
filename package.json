@@ -1,0 +1,28 @@
+{
+  "name": "aqa-test",
+  "version": "1.0.0",
+  "description": "pecode aqa test",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "cypress run --spec 'cypress/integration/pecode-pdf-routine/my-test-script.js'",
+    "cypress:open": "cypress open",
+    "cypress:run": "npm run scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dreamunlim/aqa-test.git"
+  },
+  "author": "stantal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamunlim/aqa-test/issues"
+  },
+  "homepage": "https://github.com/dreamunlim/aqa-test#readme",
+  "devDependencies": {
+    "cypress": "^8.0.0",
+    "cypress-mochawesome-reporter": "^2.2.0",
+    "mocha": "^9.0.3",
+    "mochawesome": "^6.2.2",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}

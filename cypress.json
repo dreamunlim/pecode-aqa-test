@@ -1,0 +1,13 @@
+{
+    "env": {
+
+    },
+
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportFilename": "mochawesome",
+        "reportDir": "cypress/reports",
+        "charts": false,
+        "embeddedScreenshots": true
+    }
+}
